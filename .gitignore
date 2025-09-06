@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit-specific cache
+.streamlit/
+*.pyc
+
+# Env vars (if you add any)
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+*.png
+
+Docs/

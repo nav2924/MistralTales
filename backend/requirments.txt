@@ -1,0 +1,18 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# HTTP client
+requests
+
+# PDF export
+fpdf
+
+# TTS for video narration
+gTTS
+
+# Video export
+moviepy
+
+# Image handling
+pillow
