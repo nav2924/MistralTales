@@ -36,7 +36,7 @@ def _ensure_dirs():
             json.dump({}, f)
 
 # Initialize FastAPI app
-app = FastAPI(title="StoryGen API (HF)", version="1.0.0")
+app = FastAPI(title="MistralTales", version="1.0.0")
 
 # CORS (for Streamlit)
 app.add_middleware(
