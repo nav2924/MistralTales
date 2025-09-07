@@ -1,18 +1,10 @@
-# Web framework
 fastapi
 uvicorn[standard]
-
-# HTTP client
+python-dotenv
 requests
-
-# PDF export
+pydantic
+Pillow
+huggingface_hub
 fpdf
-
-# TTS for video narration
-gTTS
-
-# Video export
 moviepy
-
-# Image handling
-pillow
+gTTS

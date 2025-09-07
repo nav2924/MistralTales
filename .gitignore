@@ -19,3 +19,80 @@ __pycache__/
 *.png
 
 Docs/
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Cache / Logs
+*.log
+*.pot
+*.mo
+*.cache/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+.dmypy/
+
+# Byte-compiled / profiling
+*.prof
+*.pstats
+*.coverage
+.coverage.*
+.cache/
+*.py,cover
+
+# ----------------------------
+# Project specific
+# ----------------------------
+
+# Local data and session storage
+backend/data/sessions/
+backend/data/characters.json
+
+# Generated outputs
+outputs/
+*/outputs/
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.mp4
+outputs/**/*.pdf
+outputs/**/*.mp3
+
+# Streamlit
+.streamlit/
+
+# ----------------------------
+# Environment & Secrets
+# ----------------------------
+.env
+*.env
+credentials.json
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
