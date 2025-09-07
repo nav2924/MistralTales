@@ -175,3 +175,7 @@ A: Install ffmpeg and ensure it's in PATH.
 - Ollama/Mistral
 - Streamlit team
 - MoviePy & gTTS maintainers
+
+## Demo
+<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/ae88bb8e-0b93-4d1c-977e-6963a2c42e1a" />
+
