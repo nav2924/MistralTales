@@ -4,6 +4,46 @@
 MistralTales is an AI-powered interactive storytelling platform built with FastAPI (backend) and Streamlit (frontend).
 It lets users generate branching stories, create AI-generated illustrations, and export their adventures into PDFs or narrated videos.
 
+## Folder Structure(After setting up)
+
+```
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 Docs/ 🚫 (auto-hidden)
+├── 📁 backend/
+│   ├── 📁 __pycache__/ 🚫 (auto-hidden)
+│   ├── 📁 backend/
+│   │   └── 📁 data/
+│   │       └── 📄 characters.json 🚫 (auto-hidden)
+│   ├── 📁 data/
+│   │   ├── 📁 sessions/ 🚫 (auto-hidden)
+│   │   └── 📄 characters.json 🚫 (auto-hidden)
+│   ├── 📁 outputs/ 🚫 (auto-hidden)
+│   ├── 📁 routers/
+│   │   ├── 📁 __pycache__/ 🚫 (auto-hidden)
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 co_creator.py
+│   │   ├── 🐍 export.py
+│   │   └── 🐍 story.py
+│   ├── 📁 utils/
+│   │   ├── 📁 __pycache__/ 🚫 (auto-hidden)
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 image_generator.py
+│   │   ├── 🐍 memory.py
+│   │   ├── 🐍 orchestrator.py
+│   │   └── 🐍 text_gen.py
+│   ├── 📁 venv/ 🚫 (auto-hidden)
+│   ├── 🔒 .env 🚫 (auto-hidden)
+│   ├── 🐍 main.py
+│   └── 📄 requirments.txt
+├── 📁 frontend/
+│   ├── 📁 venv/ 🚫 (auto-hidden)
+│   ├── 🐍 app.py
+│   ├── 🐍 branching.py
+│   └── 📄 requirments.txt
+├── 📁 outputs/ 🚫 (auto-hidden)
+├── 🚫 .gitignore
+└── 📖 README.md
+```
 
 ## ✨Features
 
